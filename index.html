@@ -1,0 +1,168 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Philosopher&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Open+Sans&family=Philosopher&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <title>Hamide's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <div id="overlay1"></div>
+    <header class="grid-container item-a">
+        <nav class="nav">
+            <ul class="left inline-block">
+                <li class="home inline-block grid-item" href="#">Home</li>
+                <li class="about inline-block grid-item" href="#">About</li>
+                <li class="portfolio inline-block grid-item" href="#">Portfolio</li>
+                <button class="contactme grid-item">Contact Me</button>
+            </ul>
+            <a class="navbar-brand" href="#"><img src="/images/H. K..png"></a>
+            <div class="right">
+                <button class="resume grid-item">Resume</button>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="hero-image">
+            <div class="welcometext item-b">
+                <h2 id="welcome">Welcome to my UX Design Portfolio <br> My Name is Hamide Kusan</h2>
+                <h1 id="main-title">TRY USER-CENTRIC EXPERIENCES AND MEANINGFUL IDENTITIES WITH ME</h1>
+                <button>Contact Me</button>
+            </div>
+        </div>
+
+        <div class="skills item-c">
+            <h1 class="titles">SKILLS</h1>
+            <div class="flex-container">
+
+                <div>
+                    <img src="/images/user research illustrations.png" alt="user research illustrations" width="200"
+                        height="200">
+                    <h3>User Research</h3>
+
+                </div>
+                <div>
+                    <img src="/images/design thinking illustrations.png" alt="design thinking" width="200" height="200">
+                    <h3>Design Thinking</h3>
+
+                </div>
+                <div>
+                    <img src="/images/prototyping illustrations.png" alt="prototyping illustrations" width="200"
+                        height="200">
+                    <h3>Prototyping</h3>
+
+                </div>
+                <div>
+                    <img src="/images/interface design illustrations.png" alt="interface design" width="200"
+                        height="200">
+                    <h3>Interface Design</h3>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow bounce">
+            <a class="fa fa-arrow-down fa-2x" href="#"></a>
+        </div>
+        <!-- 
+        <div class="column">
+            <h1 class="titles">PORTFOLIO</h1>
+            <div class="casestudy1 item-d">
+                <div class="text">
+                    <img src="/images/NASA Case Study hero image.png" alt="NASA Redesign Project" width="600" height="500">
+                    <h1>Non-Profit Case Study</h1>
+                    <p>Text about my project should come here. It should be a short explanation of my case study</p>
+
+                </div>
+            </div> -->
+
+        <div class="column">
+            <h1 class="titles">PORTFOLIO</h1>
+
+            <div class="polaroid item-d">
+
+                <img onmouseover="on()" onmouseout="off()" class="portfolio-images"
+                    src="/images/NASA Case Study hero image.png" alt="NASA Case Study" style="width:100%">
+                <!-- <div class="overlay"> -->
+                <!-- <div class="casestudy">
+                        <h1>NASA Redesign Case Study</h1>
+                        <p>Text about my project should come here.</p>
+                    </div> -->
+                <div class="content">
+                    <h3>Click to View</h3>
+                </div>
+
+            </div>
+
+            <div class="polaroid item-e">
+                <img onmouseover="on1()" onmouseout="off1()" src="/images/NASA Case Study hero image.png"
+                    alt="NASA Case Study" style="width:100%">
+                <div class="casestudy">
+                    <p>Cinque Terre</p>
+                </div>
+            </div>
+
+            <div class="polaroid item-f">
+                <img src="/images/NASA Case Study hero image.png" alt="NASA Case Study" style="width:100%">
+                <div class="casestudy">
+                    <p>Cinque Terre</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="casestudy2 item-e">
+            <div class="text">
+                <h1>RWD Redesign Case Study</h1>
+                <p>Text about my project should come here. It should be a short explanation of my case study</p>
+            </div>
+        </div> -->
+
+        <!-- <div class="casestudy3 item-f">
+            <div class="text">
+                <h1>Travel App Case Study</h1>
+                <p>Text about my project should come here. It should be a short explanation of my case study</p>
+            </div>
+        </div>
+        </div> -->
+        <div>
+            <div class="footer item-g">
+                <div class="center">
+                    <h4>2023 Hamide Kusan UX/UI Design Projects</h4>
+                </div>
+
+                <i class="fa fa-linkedin-square" style="font-size:48px;color:#183153"></i>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        function on1() {
+            document.getElementById("overlay1").style.display = "block";
+        }
+
+        function off1() {
+            document.getElementById("overlay1").style.display = "none";
+        }
+    </script>
+</body>
